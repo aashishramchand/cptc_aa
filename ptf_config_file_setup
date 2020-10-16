@@ -20,7 +20,8 @@ yes
 yes
 EOF
 
-
+#Update cmd
+#sudo apt-get update && sudo apt-get -y upgrade && sudo apt-get dist-upgrade -y && apt-get -q --allow-downgrades --allow-remove-essential --allow-change-held-packages -y install build-essential && sudo apt-get autoremove -y && apt-get autoclean -y && updatedb
 
 :' List of modules added
 modules/exploitation/impacket.py,
