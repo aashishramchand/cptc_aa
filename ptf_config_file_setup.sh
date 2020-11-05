@@ -11,7 +11,7 @@ fi
 echo "-------->>Clone Complete<<--------"
 
 echo "-------->>Editing Config File<<--------"
-sed -i 's+INCLUDE_ONLY_THESE_MODULES=""+INCLUDE_ONLY_THESE_MODULES="modules/exploitation/impacket,modules/exploitation/kerberoast,modules/exploitation/kerbrute,modules/exploitation/mitm6,modules/exploitation/nosqlmap,modules/intelligence-gathering/gobuster,modules/intelligence-gathering/linux-exploit-suggester,modules/intelligence-gathering/linuxprivchecker,modules/intelligence-gathering/msfenum,modules/intelligence-gathering/ntlmrecon,modules/intelligence-gathering/nulllinux,modules/intelligence-gathering/spiderfoot,modules/intelligence-gathering/ssh-audit,modules/intelligence-gathering/sublist3r,modules/intelligence-gathering/windows-exploit-suggester,modules/password-recovery/hashcat,modules/password-recovery/seclist,modules/post-exploitation/bloodhound,modules/post-exploitation/crackmapexec,modules/post-exploitation/empire,modules/post-exploitation/evilwinrm,modules/post-exploitation/privexchange,modules/powershell/nishang,modules/powershell/powersploit,modules/vulnerability-analysis/rdpscan"+g' ptf/config/ptf.config
+sed -i 's+INCLUDE_ONLY_THESE_MODULES=""+INCLUDE_ONLY_THESE_MODULES="modules/exploitation/impacket,modules/exploitation/kerberoast,modules/exploitation/kerbrute,modules/exploitation/mitm6,modules/exploitation/nosqlmap,modules/intelligence-gathering/gobuster,modules/intelligence-gathering/linux-exploit-suggester,modules/intelligence-gathering/linuxprivchecker,modules/intelligence-gathering/msfenum,modules/intelligence-gathering/ntlmrecon,modules/intelligence-gathering/nulllinux,modules/intelligence-gathering/spiderfoot,modules/intelligence-gathering/ssh-audit,modules/intelligence-gathering/sublist3r,modules/intelligence-gathering/windows-exploit-suggester,modules/password-recovery/hashcat,modules/password-recovery/seclist,modules/post-exploitation/bloodhound,modules/post-exploitation/empire,modules/post-exploitation/evilwinrm,modules/post-exploitation/privexchange,modules/powershell/nishang,modules/powershell/powersploit,modules/vulnerability-analysis/rdpscan"+g' ptf/config/ptf.config
 sed -i 's+AUTO_UPDATE="ON"+AUTO_UPDATE="OFF"+g' ptf/config/ptf.config
 
 #installing pip & pip3
@@ -54,7 +54,6 @@ modules/intelligence-gathering/windows-exploit-suggester.py,
 modules/password-recovery/hashcat.py,
 modules/password-recovery/seclist.py,
 modules/post-exploitation/bloodhound.py,
-modules/post-exploitation/crackmapexec.py,
 modules/post-exploitation/empire.py,
 modules/post-exploitation/evilwinrm.py,
 modules/post-exploitation/privexchange.py,
