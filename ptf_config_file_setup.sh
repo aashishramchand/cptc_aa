@@ -29,8 +29,8 @@ sed -i 's+AUTO_UPDATE="ON"+AUTO_UPDATE="OFF"+g' ptf/config/ptf.config
 echo "-------->>Editing Config File Complete<<--------"
 
 #installing pip & pip3
-apt-get install pip
-apt-get install python3-pip
+apt-get install pip --asume-yes
+apt-get install python3-pip --assueme-yes
 echo "-------->>Acquired Pip & Pip3<<--------"
 
 echo "-------->>Starting PTF<<--------"
